@@ -13,25 +13,25 @@
 
 ```
 brew tap caskroom/cask
+brewk cask install google-chrome
+brew cask install spotify
 ```
 
 # base utils
+
 ```
-brew install ccat
 brew install cmake
-brew install ctags
-brew install fzf
 ```
 
 # git
 ```
 brew install git
-ssh-keygen -t rsa -b 4096 -C "m@praglowski.com"
+ssh-keygen -t rsa -b 4096 -C "robert.pankowecki@gmail.com"
 eval "$(ssh-agent -s)"
 # edit ~/.ssh/config => https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 ssh-add -K ~/.ssh/id_rsa
 pbcopy < ~/.ssh/id_rsa.pub
-# add shh key to github
+# add shh key to github and bitbucket
 
 brew install gpg
 # install keybase form https://keybase.io/docs/the_app/install_macos
