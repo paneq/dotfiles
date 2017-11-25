@@ -9,7 +9,13 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#base utils
+# cask
+
+```
+brew tap caskroom/cask
+```
+
+# base utils
 ```
 brew install ccat
 brew install cmake
