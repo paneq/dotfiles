@@ -86,21 +86,8 @@ brew install hh
 # ruby
 ```
 brew install rbenv
-brew install rbenv-gemset
-brew install puma/puma/puma-dev
-sudo puma-dev -setup
-puma-dev -install
-mkdir ~/.puma-dev
 brew install heroku
 brew install sqlite
-```
-
-# other dev
-```
-brew install erlang
-brew install elixir
-brew install go
-brew cask install haskell-platform
 ```
 
 # webdev
@@ -113,37 +100,20 @@ brew install node@6
 ```
 brew install mysql
 brew services start mysql
+
 brew install redis
 brew services start redis
+
+brew install postgres
+brew services start postgres
 ```
 
-# work
-## billetto
-```
-echo 3000 > ~/.puma-dev/billetto
-brew install imagemagick@6
-brew link --force imagemagick@6
-brew install libmagic
-brew install qt@5.5
-brew install v8
-brew tap phrase/brewed
-brew install phraseapp
-gem install mailcatcher
-cd ~/arkency/billetto && ctags -R -f .tags .
-# install full XCode from AppStore
-sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
-sudo xcodebuild -license
-# install JRE from http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jre-8u144-macosx-x64.dmg
-# install JDK from http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-macosx-x64.dmg
-# instead of brew cask install java
-brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/32596089dd28f7542b44b2ff83f28e23760bf347/Formula/elasticsearch@1.7.rb
-brew services start elasticsearch@1.7
-gem install engineyard
-cd ~/arkency/billetto && touch tmp/pids/sidekiq.pid
-```
-
-# apps
+# fish
 
 ```
-brew install irssi
+brew install fish
+brew install fzf
+
+# https://github.com/fisherman/fisherman#install
+fisher install fzf
 ```
