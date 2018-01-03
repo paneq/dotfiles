@@ -112,8 +112,8 @@ brew services start postgres
 
 ```
 brew install fish
-brew install fzf
 
-# https://github.com/fisherman/fisherman#install
-fisher install fzf
+# https://github.com/junegunn/fzf#using-homebrew-or-linuxbrew
+brew install fzf
+/usr/local/opt/fzf/install
 ```
